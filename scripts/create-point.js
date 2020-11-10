@@ -63,9 +63,9 @@ function handleSelectedItem(event){
             return itemIsDifferent
         })
         selectedItems = filteredItems
-        console.log(selectedItems)
+
     } else{
         selectedItems.push(itemId)
     }
    collectedItems.value = selectedItems
-}   
+}           
