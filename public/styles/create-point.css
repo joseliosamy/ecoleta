@@ -10,13 +10,13 @@
     align-items: center;
     margin-top: 48px;
 }
-#page-create-point a{
+#page-create-point header a{
     color: var(--title-color);
     font-weight: bold;
     display: flex;
     align-items: center;
 }
-#page-create-point a span{
+#page-create-point header a span{
     background-image: url('/assets/arrow-left.svg');
     width: 20px;
     height: 24px;
@@ -39,11 +39,19 @@ form fieldset{
     border: none;
 }
 form legend{
-    margin-bottom: 40px;
-}
-form legend{
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 42px;
 }
+
+form legend span{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
 form .field{
     flex: 1;
     display: flex;
@@ -59,6 +67,7 @@ form input, form select{
     padding: 16px 24px;
     font-size: 16px;
     border-radius: 8px;
+    outline-color: #34cb79;
 }
 form select{
     -webkit-appearance: none;
@@ -67,9 +76,9 @@ form select{
 }
 form label{
     font-size: 14px;
-    margin-bottom: 8px;
+    margin: 8px 0;
 }
-form .field-group + .field{
+form .field-group .field + .field{
     margin-left: 24px;
 }
 form button{

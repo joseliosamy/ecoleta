@@ -4,7 +4,7 @@ function populateUFs(){
     // fetch vai no site da api, caso dê tudo certo o then vai responder, os dados essa resposta vai ser "transformado" em uma json através de uma função anônima, tendo sucesso o proximo then vai através de um for, atribuir um valor do states ao parametro states e se repetir até o fim do array de estados da api, e logo após isso atribuir na const ufSelect, o objeto state id a cada (state) e inserir no html com a tag option
     fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados")
     .then((res) => {return res.json()})
-    .then((states) => {
+    .then((states) => { 
         for(state of states){
             ufSelect.innerHTML += `<option value="${state.id}">${state.nome}</option>`
         }     

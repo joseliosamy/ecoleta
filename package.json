@@ -1,0 +1,26 @@
+{
+  "name": "ecoleta",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseliosamy/ecoleta.git"
+  },
+  "author": "Josélio Samy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "bugs": {
+    "url": "https://github.com/joseliosamy/ecoleta/issues"
+  },
+  "homepage": "https://github.com/joseliosamy/ecoleta#readme",
+  "description": ""
+}
