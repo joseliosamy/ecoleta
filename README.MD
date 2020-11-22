@@ -11,7 +11,7 @@
 </h3>
 <p align="center">
   <a href="https://rocketseat.com.br">
-    <img src="https://img.shields.io/badge/Made%20by-Rocketseat-brightgreen&style=flat&logo">
+    <img src="https://img.shields.io/badge/Made%20by-Rocketseat-brightgreen&style=flat&logo" align="center">
   </a>
 </p>
 
